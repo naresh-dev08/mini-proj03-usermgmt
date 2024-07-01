@@ -1,0 +1,15 @@
+server:
+  port: 4041
+
+spring:
+  application:
+    name: mini-proj03-usermgmt
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql:///jrtp701db
+    username: root
+    password: root

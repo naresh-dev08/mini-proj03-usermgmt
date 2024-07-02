@@ -9,6 +9,9 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class ActiveUser {
 
-
+    private String email;
+    private String tempPassword;
+    private String newPassword;
+    private String confPassword;
 
 }

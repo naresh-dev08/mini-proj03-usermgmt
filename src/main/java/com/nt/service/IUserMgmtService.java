@@ -13,6 +13,6 @@ public interface IUserMgmtService {
     public String activeUserAccount(ActiveUser activeUser);
     public String login(LoginCredentials loginCredentials);
     public List<UserAccount> userList();
-    public UserAccount showUserByUserId(String userId);
+    public UserAccount showUserByUserId(String email);
 
 }

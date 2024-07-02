@@ -21,7 +21,7 @@ public class UserManager {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer userID;
     @Column(length = 20)
-    private String usernName;
+    private String userName;
     @Column(length = 20)
     private String password;
     @Column(length = 30)
